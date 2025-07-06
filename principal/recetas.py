@@ -4,7 +4,7 @@ import streamlit as st
 
 
 # Guardar en la variable 'ruta' la url del dataset
-ruta = "https://raw.githubusercontent.com/SMOLINAV/plato_proyecto/refs/heads/main/principal/recetas.csv"
+ruta = "https://github.com/SMOLINAV/plato_proyecto/blob/fa068deacb2b5048d5dc9337f6097e7492346fba/principal/recetas.csv"
 
 # Cargar el dataset a partir de la ruta establecida
 data = pd.read_csv(ruta, delimiter="|")
