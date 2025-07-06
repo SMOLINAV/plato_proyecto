@@ -19,7 +19,7 @@ def main():
     """
     
     
-    # Inicializar el estado si no existe
+"""   # Inicializar el estado si no existe
     if 'visible' not in st.session_state:
         st.session_state.visible = False
 
@@ -133,3 +133,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+"""
