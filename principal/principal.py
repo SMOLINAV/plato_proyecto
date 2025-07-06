@@ -1,5 +1,5 @@
 # Librerías de terceros
-import streamlit as st
+import streamlit as st ##type:ignore
 
 # Librerías propias
 import info
